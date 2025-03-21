@@ -1,0 +1,77 @@
+.container {
+  background-color: whitesmoke;
+  padding: 30px;
+  width: 350px;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.shopping-list {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: gray;
+  color: white;
+}
+
+button {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.add-btn {
+  background-color: green;
+  color: white;
+}
+
+ul {
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f4f4f4;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+.button-group {
+  display: flex;
+  gap: 5px; 
+}
+.bought {
+  background: lightgreen;
+  text-decoration: line-through;
+}
+
+.edit-btn {
+  background-color: yellow;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.remove-btn {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
